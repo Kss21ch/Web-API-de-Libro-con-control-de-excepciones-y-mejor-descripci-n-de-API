@@ -18,7 +18,7 @@ Este repositorio contiene las modificaciones realizadas en el API de libros para
 # Modificaciones realizadas y probando los endpoints utilizando Postman
 ## 1. Manejo de excepción para libros no encontrados
 Se ha implementado una excepción LibroException que se lanza cuando se intenta acceder a un libro que no existe. Esta excepción se captura y se envía el estado NOT_FOUND y un mensaje personalizado.
-### Usando Get http://localhost:8080/Libros:
+### Usando Get: http://localhost:8080/Libros
 ![image](https://github.com/Kss21ch/Web-API-de-Libro-con-control-de-excepciones-y-mejor-descripci-n-de-API/assets/147552972/c8fc4f37-a067-4616-9841-39b1ae539e7d)
 
 ### Buscando por ID: http://localhost:8080/Libros/11
