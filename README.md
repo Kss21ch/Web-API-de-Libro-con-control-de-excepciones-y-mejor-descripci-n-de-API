@@ -1,8 +1,8 @@
 # Modificaciones en el API de libros
 Este repositorio contiene las modificaciones realizadas en el API de libros para cumplir con los siguientes requerimientos:
-	## 1. Si no existe el libro, lanzar una excepción LibroException al acceder al recurso GET /libros/{id_libro}, enviando el estado NOT_FOUND con un mensaje personalizado.
+## 1. Si no existe el libro, lanzar una excepción LibroException al acceder al recurso GET /libros/{id_libro}, enviando el estado NOT_FOUND con un mensaje personalizado.
  
-###Uso de GlobalException
+### Uso de GlobalException
 ![image](https://github.com/Kss21ch/Web-API-de-Libro-con-control-de-excepciones-y-mejor-descripci-n-de-API/assets/147552972/27af711c-264b-4b09-8b40-14124591703a)
 
 ### LibroException
